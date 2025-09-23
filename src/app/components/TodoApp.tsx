@@ -2,7 +2,6 @@
 
 import React from "react";
 import TodoInput from "./TodoInput";
-import { todo } from "node:test";
 import Link from "next/link";
 
 export default function TodoApp() {
@@ -34,7 +33,7 @@ export default function TodoApp() {
   }
 
   function handleDelete(index: number) {
-    setTodoList(todoList.filter((todo, i) => i != index));
+    setTodoList(todoList.filter((_, i) => i !== index));
     localStorage.setItem("todos", JSON.stringify(todoList));
   }
 

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TodoApp from "./components/TodoApp";
 
 export default function Home() {
