@@ -1,9 +1,9 @@
+import Link from "next/link";
 import TodoApp from "./components/TodoApp";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl text-center pt-4 pb-2 border-b-2"> Todo List </h1>
       <TodoApp />
     </div>
   )
