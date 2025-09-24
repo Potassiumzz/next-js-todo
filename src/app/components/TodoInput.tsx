@@ -31,7 +31,7 @@ export default function TodoInput({ addTodoList }: TodoInputProps) {
         className="bg-blue-600 text-white px-4 py-1 rounded-sm w-[200px] hover:cursor-pointer hover:bg-blue-800 duration-200"
         onClick={handleAddTodo}
       >
-        Add todo list
+        Add new todo
       </button>
     </div>
   )
