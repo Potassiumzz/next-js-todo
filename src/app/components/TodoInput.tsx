@@ -28,7 +28,7 @@ export default function TodoInput({ addTodoList }: TodoInputProps) {
       />
       {error && <div>{error}</div>}
       <button
-        className="bg-blue-500 text-white px-4 py-1 rounded-sm w-[200px] hover:cursor-pointer hover:bg-blue-800 duration-200"
+        className="bg-blue-600 text-white px-4 py-1 rounded-sm w-[200px] hover:cursor-pointer hover:bg-blue-800 duration-200"
         onClick={handleAddTodo}
       >
         Add todo list
